@@ -1,0 +1,138 @@
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem /* 80px -> 5rem */;
+}
+
+.blog-heading {
+  font-size: 3.5rem /* 56px -> 3.5rem */;
+
+  @media (max-width: 759.99px) {
+    font-size: 1.25rem;
+  }
+}
+
+.blog-boxes {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+.blog-img {
+  width: 23.625rem /* 378px -> 23.625rem */;
+  height: 14.6875rem /* 235px -> 14.6875rem */;
+
+  @media (max-width: 759.99px) {
+    width: 22.125rem /* 354px -> 22.125rem */;
+    height: 13.755rem /* 220.08px -> 13.755rem */;
+  }
+}
+
+.book-text-pics {
+  display: flex;
+  justify-content: space-between;
+  color: #212121;
+  gap: 2rem;
+  margin-top: 3rem;
+
+  @media (max-width: 759.99px) {
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0;
+  }
+}
+
+.bb-heading {
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  @media (max-width: 759.99px) {
+    font-size: 0.8194rem /* 13.11px -> .8194rem */;
+  }
+}
+
+.bb-text {
+  font-size: 0.8125rem /* 13px -> .8125rem */;
+  font-weight: 400;
+  line-height: 1.1375rem /* 18.2px -> 1.1375rem */;
+
+  @media (max-width: 759.99px) {
+    font-size: 0.7606rem /* 12.17px -> .7606rem */;
+    line-height: 1.065rem /* 17.04px -> 1.065rem */;
+    max-width: 80%;
+    margin-top: 0.4681rem /* 7.49px -> .4681rem */;
+  }
+}
+
+.book-pics {
+  width: 5.3125rem /* 85px -> 5.3125rem */;
+  height: 4.9375rem /* 79px -> 4.9375rem */;
+  border-radius: 0.5rem;
+
+  @media (max-width: 759.99px) {
+    width: 4.975rem /* 79.6px -> 4.975rem */;
+    height: 4.6238rem /* 73.98px -> 4.6238rem */;
+  }
+}
+
+.more-blog {
+  text-decoration: underline;
+  font-weight: bold;
+  margin-top: 3rem;
+
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+/* mobile */
+
+br {
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+.mobile-blog {
+  display: none;
+
+  @media (max-width: 759.99px) {
+    display: block;
+  }
+}
+
+.mobile-blog-thumbnail {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.mobile-blog-books {
+  display: none;
+  @media (max-width: 759.99px) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+    /* padding: 0 1rem; */
+    width: 22.125rem /* 354px -> 22.125rem */;
+  }
+}
+
+.mobile-more-blog {
+  display: none;
+  @media (max-width: 759.99px) {
+    display: block;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    padding-bottom: 5rem;
+  }
+}

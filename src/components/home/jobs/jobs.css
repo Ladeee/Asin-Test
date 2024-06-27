@@ -1,0 +1,141 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.jobs-heading {
+  font-size: 3.5rem /* 56px -> 3.5rem */;
+  font-weight: bold;
+
+  @media (max-width: 759.99px) {
+    font-size: 1.25rem;
+  }
+}
+
+.jobs-text {
+  color: #4e4e4e;
+  padding-top: 1.5rem;
+  font-size: 1.0625rem /* 17px -> 1.0625rem */;
+  font-weight: 400;
+
+  @media (max-width: 759.99px) {
+    text-align: center;
+    font-size: .9375rem /* 15px -> .9375rem */;
+    line-height: 1.3125rem /* 21px -> 1.3125rem */;
+    width: 90%;
+  }
+}
+
+.jobs-boxes {
+  display: flex;
+  gap: 1.8125rem /* 29px -> 1.8125rem */;
+  margin-top: 2.5rem;
+
+  @media (max-width: 759.99px) {
+  }
+}
+
+.job-box {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 17.375rem /* 278px -> 17.375rem */;
+  height: 28.0625rem /* 449px -> 28.0625rem */;
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  gap: 1.25rem;
+
+  @media (max-width: 759.99px) {
+  }
+}
+
+.job-position {
+  color: #212121;
+  font-size: 1.125rem /* 18px -> 1.125rem */;
+  /* font-weight: bold; */
+}
+
+.job-display {
+  color: #212121;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.saas {
+  color: #212121;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem /* 8px -> .5rem */;
+}
+
+.location > p {
+  color: #8e8e8e;
+}
+
+.industry {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.industry > p {
+  color: #8e8e8e;
+}
+
+.jobs-icon {
+  width: 7.4075rem /* 118.52px -> 7.4075rem */;
+  height: 4rem /* 64px -> 4rem */;
+}
+
+.jobs-btn {
+  background-color: #303030;
+  color: #ffffff;
+  width: 11.5625rem /* 185px -> 11.5625rem */;
+  height: 2.9375rem /* 47px -> 2.9375rem */;
+  border-radius: 1.5rem;
+}
+
+.more-jobs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+.jobs-more {
+  color: #212121;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.jobs-arrow {
+  width: 0.9712rem /* 15.54px -> .9712rem */;
+  height: 0.9712rem /* 15.54px -> .9712rem */;
+}
+
+/* mobile */
+br{
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+#mobile-none{
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}

@@ -1,0 +1,113 @@
+.featured-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+
+  @media (max-width: 759.99px) {
+    display: none;
+  }
+}
+
+.fea-head{
+  color: #212121;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 4rem;
+}
+
+.fea-news{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.fea-pics{
+  width: 38.875rem /* 622px -> 38.875rem */;
+  height: 24.5625rem /* 393px -> 24.5625rem */;
+}
+
+.news-box{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17rem /* 272px -> 17rem */;
+  padding: 2.5rem 1.25rem;
+}
+
+.buj-box{
+  display: flex;
+}
+
+.buj-logo{
+  width: 4.4794rem /* 71.67px -> 4.4794rem */;
+  height: 1.875rem /* 30px -> 1.875rem */;
+}
+
+.punch-logo{
+  width: 4.68rem /* 74.88px -> 4.68rem */;
+  height: 2.5rem /* 40px -> 2.5rem */;
+}
+
+.news-head{
+  color: #212121;
+  font-size: .9375rem /* 15px -> .9375rem */;
+  line-height: 1.3125rem /* 21px -> 1.3125rem */;
+  margin-top: 1rem;
+}
+
+.news-text{
+  color: #4E4E4E;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.225rem /* 19.6px -> 1.225rem */;
+  margin-top: .5rem;
+}
+
+.news-report{
+  color: #4E4E4E;
+  display: flex;
+  flex-direction: column;
+  gap: .625rem;
+  font-weight: 400;
+}
+
+.report{
+  font-size: .8125rem /* 13px -> .8125rem */;
+}
+
+.reporter-name{
+  font-size: .9375rem /* 15px -> .9375rem */;
+}
+
+.fea-build{
+  color: #212121;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 6.5rem /* 104px -> 6.5rem */;
+  margin-top: 4rem;
+}
+
+.fea-btns{
+  display: flex;
+  gap: .75rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.fea-btns>button{
+  padding: .625rem 2rem;
+  border-radius: 1.5rem;
+  height: 3.0625rem /* 49px -> 3.0625rem */;
+}
+
+.fea-sinc{
+  background-color: #ffffff;
+  border: .0625rem solid #212121;
+}
+
+.fea-apply{
+  background-color: #303030;
+  color: #ffffff;
+}
