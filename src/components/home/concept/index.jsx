@@ -106,7 +106,7 @@ export default function Concept() {
             </div>
           </div>
 
-          <div className='con-case-study'>
+          <div className="con-case-study">
             <p className="hypo-case">Case Study</p>
             <p className="hypo-text">
               See what Service Incubators get, the maths behind Service Equity
