@@ -280,6 +280,7 @@ input {
 }
 
 .policy > p {
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -308,6 +309,10 @@ input {
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.medias>img{
+  cursor: pointer;
 }
 
 .whats {
